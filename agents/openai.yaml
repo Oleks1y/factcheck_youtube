@@ -1,0 +1,7 @@
+interface:
+  display_name: "factcheck_youtube"
+  short_description: "Fact-check videos and produce sourced reports"
+  default_prompt: "Use $factcheck_youtube to fact-check a video URL, verify its claims against reliable sources, and save a concise markdown report."
+
+policy:
+  allow_implicit_invocation: true
